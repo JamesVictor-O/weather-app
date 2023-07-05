@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 300px;
+    background: linear-gradient(to bottom, rgb(50, 243, 169), rgb(220, 143, 243));
+    height: 80%;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search input{
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+    
+}
+.search img{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.flag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countryFlag{
+    width: 70%;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: sans-serif;
+}   
+.con{
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.tenent{
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.about div{
+    margin-left: 10px;
+}
+.details{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.forcast{
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.forcastD{
+    margin-left: 10px;
+}
+.conditions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+
+}
+.currency,.lang{
+    font-size: 13px;
+}
+.conditions h2{
+    margin-left: px;
+}
+.humdity{
+    display: flex;
+    font-size: 10px;
+}
+.hum,.win{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.wind{
+    display: flex;
+    font-size: 13px;
+}
